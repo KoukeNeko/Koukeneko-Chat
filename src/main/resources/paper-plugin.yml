@@ -1,0 +1,10 @@
+name: Koukeneko-Chat
+version: '1.0-SNAPSHOT'
+main: dev.doeshing.koukenekoChat.KoukenekoChat
+api-version: '1.21'
+
+dependencies:
+  server:
+    PlaceholderAPI:
+      load: BEFORE
+      required: true
